@@ -22,7 +22,7 @@ export default function ProjectsPage() {
                   </span>
                 </div>
               }
-            description="A cross-platform CLI tool to update all packages from listed package managers"
+            description="A cross-platform CLI tool to update all packages from listed package managers."
             url="https://github.com/wpxq/updateit"
           />
           <ProjectRow 
@@ -30,7 +30,7 @@ export default function ProjectsPage() {
               title={
                 <div className="flex items-center flex-wrap gap-2">
                   <span className="font-bold">updateit-legacy (Py)</span>
-                  <span className="text-xs uppercase px-2 py-0.5 rounded border border-amber-500/30 bg-amber-500/10 text-amber-500 font-medium">
+                  <span className="text-xs uppercase px-2 py-0.5 rounded border border-yellow-500/30 bg-yellow-500/10 text-yellow-500 font-medium">
                       Public Archive
                   </span>
                 </div>
