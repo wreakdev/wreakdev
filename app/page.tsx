@@ -87,7 +87,14 @@ export default function Home() {
   />
   <ProjectRow
     number="03"
-    title="dockstat"
+    title={
+      <div className="flex items-center flex-wrap gap-2">
+      <span className="font-bold">dockstat</span>
+      <span className="text-xs uppercase px-2 py-0.5 rounded border border-blue-500/30 bg-blue-500/10 text-blue-400 font-medium">
+      I personally use it
+      </span>
+    </div>
+  }
     description="A minimalist, fast, and clean command-line tool for monitoring your running Docker containers. Forget about the clutter of standard docker ps`outputs—dockstat delivers all the essential information you need at a single glance."
     url="https://github.com/wpxq/dockstat"
   />
