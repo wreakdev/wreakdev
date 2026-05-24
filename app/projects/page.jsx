@@ -121,6 +121,19 @@ export default function ProjectsPage() {
               url="https://github.com/wpxq/xqmap"
               />
             </section>
+            <ProjectRow
+            number="12"
+            title={
+              <div className="flex items-center flex-wrap gap-2">
+                <span className="font-bold">dockstat</span>
+                <span className="text-xs uppercase px-2 py-0.5 rounded border border-blue-500/30 bg-blue-500/10 text-blue-400 font-medium">
+                  I personally use it
+                </span>
+              </div>
+            }
+            description="A minimalist, fast, and clean command-line tool for monitoring your running Docker containers. Forget about the clutter of standard docker ps`outputs—dockstat delivers all the essential information you need at a single glance."
+            url="https://github.com/wpxq/dockstat"
+            />
       <a href="/" className="mt-12 inline-block text-gray-400 hover:text-white">
         ← Back to Home
       </a>
