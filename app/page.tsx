@@ -40,12 +40,12 @@ export default function Home() {
             level="[ Learning ]"
           />
           <SkillRow
-            category="Scripting"
+            category="Scripting / Automation"
             skills="Python"
             level="[ 2022 - Present ]"
           />
           <SkillRow
-            category="Scripting"
+            category="Scripting / Automation"
             skills="Go"
             level="[ Learning ]"
           />
@@ -87,9 +87,9 @@ export default function Home() {
   />
   <ProjectRow
     number="03"
-    title="W-Cards"
-    description="A minimalist, high-performance Progressive Web App (PWA) designed to store loyalty cards and barcodes. Built with a focus on speed, offline reliability, and seamless cloud synchronization. "
-    url="https://github.com/wpxq/w-cards"
+    title="dockstat"
+    description="A minimalist, fast, and clean command-line tool for monitoring your running Docker containers. Forget about the clutter of standard docker ps`outputs—dockstat delivers all the essential information you need at a single glance."
+    url="https://github.com/wpxq/dockstat"
   />
   <div className="py-8 border-t border-gray-900 text-center">
     <a 
