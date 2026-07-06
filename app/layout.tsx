@@ -3,9 +3,9 @@ import CustomCursor from '../components/Cursor';
 import './globals.css';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://WreakDev.vercel.app/'), 
+  metadataBase: new URL('https://wreakdev.vercel.app/'), 
   title : {
-    default: "wpxq - Portfolio",
+    default: "WreakDev - Portfolio",
     template: "%s | WreakDev"
   },
   description: "Building Backend & Automation tools",
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "WreakDev - Portfolio",
     description: "Building Backend & Automation tools",
-    url: "https://WreakDev.vercel.app/",
+    url: "https://wreakdev.vercel.app/",
     siteName: "WreakDev - Portfolio",
     locale: "en_US",
     type: "website",
