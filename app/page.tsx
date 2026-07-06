@@ -17,7 +17,7 @@ export default function Home() {
 
   <div className="flex flex-col">
   <h1 className="text-6xl md:text-[140px] font-bold leading-[0.75] tracking-tighter uppercase italic">
-    w`
+    WreakDev
   </h1>
   <p className="text-gray-500 font-mono text-sm md:text-base mt-4 ml-2 tracking-[0.2em] uppercase">
     Building Backend & Automation tools
@@ -65,7 +65,7 @@ export default function Home() {
     </div>
   }
     description="CLI tool to update all packages from listed package managers."
-    url="https://github.com/wpxq/updateit"
+    url="https://github.com/wreakdev/updateit"
   />
   <ProjectRow 
     number="02"
@@ -78,7 +78,7 @@ export default function Home() {
     </div>
   }
     description="lightweight Python automation script designed to streamline your Git workflow. Stop typing three commands repeatedly—do it all with one."
-    url="https://github.com/wpxq/ppush"
+    url="https://github.com/wreakdev/ppush"
   />
   <ProjectRow
     number="03"
@@ -91,7 +91,7 @@ export default function Home() {
     </div>
   }
     description="A minimalist, fast, and clean command-line tool for monitoring your running Docker containers. Forget about the clutter of standard docker ps`outputs—dockstat delivers all the essential information you need at a single glance."
-    url="https://github.com/wpxq/dockstat"
+    url="https://github.com/wreakdev/dockstat"
   />
   <div className="py-8 border-t border-gray-900 text-center">
     <a 

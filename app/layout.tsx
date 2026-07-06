@@ -3,18 +3,18 @@ import CustomCursor from '../components/Cursor';
 import './globals.css';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://wpxq.vercel.app/'), 
+  metadataBase: new URL('https://WreakDev.vercel.app/'), 
   title : {
     default: "wpxq - Portfolio",
-    template: "%s | wpxq"
+    template: "%s | WreakDev"
   },
   description: "Building Backend & Automation tools",
-  authors : [{ name: "wpxq" }],
+  authors : [{ name: "wreakdev" }],
   openGraph: {
-    title: "wpxq - Portfolio",
+    title: "WreakDev - Portfolio",
     description: "Building Backend & Automation tools",
-    url: "https://wpxq.vercel.app/",
-    siteName: "wpxq - Portfolio",
+    url: "https://WreakDev.vercel.app/",
+    siteName: "WreakDev - Portfolio",
     locale: "en_US",
     type: "website",
   }
