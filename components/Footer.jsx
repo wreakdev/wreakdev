@@ -15,7 +15,7 @@ export default function Footer() {
           </pre>
         </div>
         <div className="flex gap-6 text-gray-500 font-mono text-xs uppercase tracking-widest">
-          <a href="https://github.com/wpxq" target="blank_" rel="noopener noreferrer" className="hover:text-white transition-colors">Github</a>
+          <a href="https://github.com/wreakdev" target="blank_" rel="noopener noreferrer" className="hover:text-white transition-colors">Github</a>
         </div>
       </div>
     </footer>
