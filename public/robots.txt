@@ -1,3 +1,2 @@
 User-agent: *
 Allow: /
-Sitemap: https://wreakdev.vercel.app/sitemap.xml
