@@ -106,14 +106,6 @@ export default function Home() {
     description="Webrr is a command-line utility written in Go designed to perform reconnaissance on web servers. It checks for security-related HTTP headers, detects Web Application Firewalls (WAFs), and identifies Content Management Systems (CMS)."
     url="https://github.com/wreakdev/webrr"
     />
-  <div className="py-8 border-t border-gray-900 text-center">
-    <a 
-      href="/projects" 
-      className="inline-block text-sm font-mono text-gray-500 hover:text-white transition-colors duration-200"
-    >
-      [ View all projects ]
-    </a>
-  </div>
 </section>
     <div className="mt-24 mb-10 ml-2">
       <h2 className="text-4xl md:text-6xl font-bold uppercase italic tracking-tighter text-gray-200 opacity-50">
