@@ -44,6 +44,11 @@ export default function Home() {
             skills="Go"
             level="[ Learning ]"
           />
+          <SkillRow
+            category="Cyber Security"
+            skills="TryHackMe (Offensive Security)"
+            level="[ 2022 - Present ]"
+          />
         </section>
 
     <div className="mt-24 mb-10 ml-2">
