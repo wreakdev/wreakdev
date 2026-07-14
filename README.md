@@ -5,6 +5,10 @@
         <br>
         <samp>&gt; Building Backend & Automation tools
         </samp>
+        </samp>
+        <br>
+        <samp>&gt; TryHackMe (OffSec)
+        </samp>
 </h3>
 
 # Tech Stack:
