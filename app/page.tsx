@@ -93,6 +93,19 @@ export default function Home() {
     description="A minimalist, fast, and clean command-line tool for monitoring your running Docker containers. Forget about the clutter of standard docker ps`outputs—dockstat delivers all the essential information you need at a single glance."
     url="https://github.com/wreakdev/dockstat"
   />
+  <ProjectRow
+    number="04"
+    title={
+      <div className="flex items-center flex-wrap gap-2">
+      <span className="font-bold">Webrr</span>
+      <span className="text-xs uppercase px-2 py-0.5 rounded border border-blue-500/30 bg-blue-500/10 text-blue-400 font-medium">
+      I personally use it
+      </span>
+      </div>
+    }
+    description="Webrr is a command-line utility written in Go designed to perform reconnaissance on web servers. It checks for security-related HTTP headers, detects Web Application Firewalls (WAFs), and identifies Content Management Systems (CMS)."
+    url="https://github.com/wreakdev/webrr"
+    />
   <div className="py-8 border-t border-gray-900 text-center">
     <a 
       href="/projects" 
