@@ -47,7 +47,7 @@ export default function Home() {
           <SkillRow
             category="Cyber Security"
             skills="TryHackMe (OffSec)"
-            level="[ 2022 - Present ]"
+            level="[ 2024 - Present ]"
           />
         </section>
 
