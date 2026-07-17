@@ -26,12 +26,12 @@ var GithubUser = WreakDev{
 
 ```go
 type Links struct {
-        PortFolio       string
+        portfolio       string
         TryHackMe       string 
 }
 
 var Social = Link{
-        PortFolio:  "https://wreakdev.vercel.app",
+        portfolio:  "https://wreakdev.vercel.app",
         TryHackMe:  "https://tryhackme.com/p/Wreak1337"
 }
 ```
