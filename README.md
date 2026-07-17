@@ -14,7 +14,7 @@ var GithubUser = WreakDev{
         Name:      "WreakDev // Wreak1337",
         Stack:    []string{"Linux", "Docker", "Python", "Go"},
         Focus:    []string{"Infrastructure Pentesting", "CTF"},
-        Sec:      []string{"Offensive Security", "TryHackMe"}
+        Sec:      []string{"Offensive Security", "TryHackMe"},
         Role:     []string{"Infrastructure Pentester", "Developer"},
         Mission:  "Building Backend // Automation Tools",
         Driver:   "Fedora Linux",
