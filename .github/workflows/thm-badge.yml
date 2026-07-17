@@ -1,18 +1,21 @@
 name: TryHackMe Update Badge
 on:
   schedule:
-    - cron: '0 0 * * *'
+    # Make it run every 6 hours
+    - cron: '0 */6 * * *'
   workflow_dispatch:
-
 jobs:
   tryhackme-badge-update:
-    name: Update tryhackme image badge
+    name: Update this repo's tryhackme badge with the latest tryhackme image badge
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-      - uses: actions/checkout@v3
-      - uses: p4p1/tryhackme-badge-workflow@main
+      - uses: actions/checkout@v2
+      - uses: ymedlop/tryhackme-badge-workflow@main
         with:
-          username: "Wreak1337"
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          username: "WreakDev"
+          committer_username: "WreakDev"
+          committer_email: ""
+          image_path: "./assets/tryhackme.png"
+          use_static_image: "false"
+          user_public_id: "7168674"
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
