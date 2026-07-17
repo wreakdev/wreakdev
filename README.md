@@ -16,9 +16,9 @@ var GithubUser = WreakDev{
         Focus:    []string{"Infrastructure Pentesting", "CTF"},
         Sec:      "Offensive Security // TryHackMe",
         Role:     "Infrastructure Pentester // Developer",
-        Mission:  "Building Backend & Automation Tools",
+        Mission:  "Building Backend // Automation Tools",
         Driver:   "Fedora Linux",
-        Env:      "RPi 5 (8GB) // Debian // Hosting & Lab",
+        Env:      "RPi 5 (8GB) // Debian // Hosting // HomeLab",
 }
 ```
 
