@@ -15,4 +15,4 @@ jobs:
       - uses: p4p1/tryhackme-badge-workflow@main
         with:
           username: "Wreak1337"
-          THM_TOKEN: ${{ secrets.THM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
