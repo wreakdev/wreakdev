@@ -27,7 +27,6 @@ var GithubUser = WreakDev{
 ```go
 type Links struct {
         PortFolio       string
-        GitHub          string
         TryHackMe       string 
 }
 
