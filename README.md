@@ -21,7 +21,8 @@ var GithubUser = WreakDev{
         Env:      "RPi 5 (8GB) // Debian // Hosting & Lab",
 }
 ```
-<br>
+
+---
 
 ```go
 type Links struct {
