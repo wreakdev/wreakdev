@@ -1,15 +1,37 @@
-<h3 align="center">
-        <samp>&gt; Hello World!, I am
-                <b><a target="_blank" href="https://wreakdev.vercel.app/">WreakDev</a></b>
-        </samp>
-        <br>
-        <samp>&gt; Building Backend & Automation tools
-        </samp>
-        </samp>
-        <br>
-        <samp>&gt; TryHackMe (OffSec)
-        </samp>
-</h3>
+```go
+type WreakDev struct {
+        Name    string
+        Stack   []string
+        Focus   []string
+        Sec     string
+        Role    string
+        Mission string
+        Driver  string
+        Env     string
+}
 
-# Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Go](https://img.shields.io/badge/Go-00ADD8?logo=Go&logoColor=white&style=for-the-badge) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+var GithubUser = WreakDev{
+        Name:      "WreakDev // Wreak1337",
+        Stack:    []string{"Linux", "Docker", "Python", "Go"},
+        Focus:    []string{"Infrastructure Pentesting", "CTF"},
+        Sec:      "Offensive Security // TryHackMe",
+        Role:     "Infrastructure Pentester // Developer",
+        Mission:  "Building Backend & Automation Tools",
+        Driver:   "Fedora Linux",
+        Env:      "RPi 5 (8GB) // Debian // Hosting & Lab",
+}
+```
+<br>
+
+```go
+type Links struct {
+        PortFolio       string
+        GitHub          string
+        TryHackMe       string 
+}
+
+var Social = Link{
+        PortFolio:  "https://wreakdev.vercel.app",
+        TryHackMe:  "https://tryhackme.com/p/Wreak1337"
+}
+```
