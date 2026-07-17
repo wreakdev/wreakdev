@@ -3,22 +3,22 @@ type WreakDev struct {
         Name    string
         Stack   []string
         Focus   []string
-        Sec     string
-        Role    string
+        Sec     []string
+        Role    []string
         Mission string
         Driver  string
-        Env     string
+        HomeLab string
 }
 
 var GithubUser = WreakDev{
         Name:      "WreakDev // Wreak1337",
         Stack:    []string{"Linux", "Docker", "Python", "Go"},
         Focus:    []string{"Infrastructure Pentesting", "CTF"},
-        Sec:      "Offensive Security // TryHackMe",
-        Role:     "Infrastructure Pentester // Developer",
+        Sec:      []string{"Offensive Security", "TryHackMe"}
+        Role:     []string{"Infrastructure Pentester", "Developer"},
         Mission:  "Building Backend // Automation Tools",
         Driver:   "Fedora Linux",
-        Env:      "RPi 5 (8GB) // Debian // Hosting // HomeLab",
+        HomeLab:  "RPi 5 (8GB)",
 }
 ```
 
