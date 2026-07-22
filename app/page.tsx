@@ -11,19 +11,26 @@ export default function Home() {
       <main className="max-w-4xl mx-auto px-6 pt-32">
       <section className="mb-40">
   <div className="flex items-end gap-6 md:gap-10">
-    <div className="relative w-24 h-24 md:w-40 md:h-40 overflow-hidden rounded-2xl border-2 border-white translate-y-4">
-      <Image src="https://avatars.githubusercontent.com/u/217353155?v=4" alt="Profile" className="object-cover" fill priority sizes="(max-width: 768px) 96px, 160px"/>
+    <div className="relative w-24 h-24 md:w-40 md:h-40 shrink-0 overflow-hidden rounded-2xl border-2 border-white translate-y-4">
+      <Image 
+        src="https://avatars.githubusercontent.com/u/217353155?v=4" 
+        alt="Profile" 
+        className="object-cover" 
+        fill 
+        priority 
+        sizes="(max-width: 768px) 96px, 160px"
+      />
     </div>
 
-  <div className="flex flex-col">
-  <h1 className="text-6xl md:text-[140px] font-bold leading-[0.75] tracking-tighter uppercase italic">
-    WreakDev
-  </h1>
-  <p className="text-gray-500 font-mono text-sm md:text-base mt-4 ml-2 tracking-[0.2em] uppercase">
-    Building Backend & Automation tools
-  </p>
+    <div className="flex flex-col">
+      <h1 className="text-6xl md:text-[140px] font-bold leading-[0.75] tracking-tighter uppercase italic">
+        WreakDev
+      </h1>
+      <p className="text-gray-500 font-mono text-sm md:text-base mt-4 ml-2 tracking-[0.2em] uppercase">
+        Building Backend & Automation tools
+      </p>
+    </div>
 </div>
-  </div>
 </section>
 
     <div className="mt-24 mb-10 ml-2">
