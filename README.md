@@ -32,6 +32,6 @@ type Links struct {
 
 var Social = Link{
         portfolio:  "https://wreakdev.vercel.app",
-        TryHackMe:  "https://tryhackme.com/p/Wreak1337"
+        TryHackMe:  "https://tryhackme.com/p/wxwreak"
 }
 ```
