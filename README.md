@@ -18,7 +18,7 @@ var GithubUser = WreakDev{
         Role:     []string{"Infrastructure Pentester", "Developer"},
         Mission:  "Building Backend // Automation Tools",
         Driver:   "Fedora Linux",
-        HomeLab:  "RPi 5 (8GB)",
+        HomeLab:  "Raspberry Pi",
 }
 ```
 
