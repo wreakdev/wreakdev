@@ -11,7 +11,7 @@ type WreakDev struct {
 }
 
 var GithubUser = WreakDev{
-        Name:      "WreakDev // Wreak1337",
+        Name:      "wreakdev // wxwreak",
         Stack:    []string{"Linux", "Docker", "Python", "Go"},
         Focus:    []string{"Infrastructure Pentesting", "CTF"},
         Sec:      []string{"Offensive Security", "TryHackMe"},
