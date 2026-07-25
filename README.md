@@ -1,18 +1,15 @@
 ```go
 type WreakDev struct {
-        Name    string
-        Stack   []string
-        Focus   []string
-        Sec     []string
-        Role    []string
-        Mission string
-        Driver  string
-        HomeLab string
-}
-
-type Links struct {
+        Name       string
+        Stack      []string
+        Focus      []string
+        Sec        []string
+        Role       []string
+        Mission    string
+        Driver     string
+        HomeLab    string
         portfolio  string
-        TryHackMe  string 
+        TryHackMe  string
 }
 
 var GithubUser = WreakDev{
@@ -24,11 +21,7 @@ var GithubUser = WreakDev{
         Mission:  "Building Backend // Automation Tools",
         Driver:   "Fedora Linux",
         HomeLab:  "Raspberry Pi",
+        portfolio: "https://wreakdev.vercel.app",
+        TryHackMe: "https://tryhackme.com/p/wxwreak",
 }
-
-var Social = Link{
-        portfolio:  "https://wreakdev.vercel.app",
-        TryHackMe:  "https://tryhackme.com/p/wxwreak"
-}
-
 ```
