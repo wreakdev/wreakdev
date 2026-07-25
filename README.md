@@ -26,8 +26,8 @@ var GithubUser = WreakDev{
 
 ```go
 type Links struct {
-        portfolio       string
-        TryHackMe       string 
+        portfolio  string
+        TryHackMe  string 
 }
 
 var Social = Link{
