@@ -13,14 +13,14 @@ type WreakDev struct {
 }
 
 var GithubUser = WreakDev{
-        Name:      "wreakdev // wxwreak",
-        Stack:    []string{"Linux", "Docker", "Python", "Go"},
-        Focus:    []string{"Infrastructure Pentesting", "CTF"},
-        Sec:      []string{"Offensive Security", "TryHackMe"},
-        Role:     []string{"Infrastructure Pentester", "Developer"},
-        Mission:  "Building Backend // Automation Tools",
-        Driver:   "Fedora Linux",
-        HomeLab:  "Raspberry Pi",
+        Name:       "wreakdev // wxwreak",
+        Stack:     []string{"Linux", "Docker", "Python", "Go"},
+        Focus:     []string{"Infrastructure Pentesting", "CTF"},
+        Sec:       []string{"Offensive Security", "TryHackMe"},
+        Role:      []string{"Infrastructure Pentester", "Developer"},
+        Mission:   "Building Backend // Automation Tools",
+        Driver:    "Fedora Linux",
+        HomeLab:   "Raspberry Pi",
         portfolio: "https://wreakdev.vercel.app",
         TryHackMe: "https://tryhackme.com/p/wxwreak",
 }
