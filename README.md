@@ -10,6 +10,11 @@ type WreakDev struct {
         HomeLab string
 }
 
+type Links struct {
+        portfolio  string
+        TryHackMe  string 
+}
+
 var GithubUser = WreakDev{
         Name:      "wreakdev // wxwreak",
         Stack:    []string{"Linux", "Docker", "Python", "Go"},
@@ -20,18 +25,10 @@ var GithubUser = WreakDev{
         Driver:   "Fedora Linux",
         HomeLab:  "Raspberry Pi",
 }
-```
-
----
-
-```go
-type Links struct {
-        portfolio  string
-        TryHackMe  string 
-}
 
 var Social = Link{
         portfolio:  "https://wreakdev.vercel.app",
         TryHackMe:  "https://tryhackme.com/p/wxwreak"
 }
+
 ```
