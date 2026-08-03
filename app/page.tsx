@@ -118,7 +118,7 @@ export default function Home() {
     description="Webrr is a command-line utility written in Go designed to perform reconnaissance on web servers. It checks for security-related HTTP headers, detects Web Application Firewalls (WAFs), and identifies Content Management Systems (CMS)."
     url="https://github.com/wreakdev/webrr"
     />
-  <RrojectRow
+  <ProjectRow
     number="05"
     title={
       <div className="flex items-center flex-wrap gap-2">
