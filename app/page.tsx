@@ -109,7 +109,7 @@ export default function Home() {
     number="04"
     title={
       <div className="flex items-center flex-wrap gap-2">
-      <span className="font-bold">Webrr</span>
+      <span className="font-bold">webrr</span>
       <span className="text-xs uppercase px-2 py-0.5 rounded border border-blue-500/30 bg-blue-500/10 text-blue-400 font-medium">
       I personally use it
       </span>
@@ -117,6 +117,32 @@ export default function Home() {
     }
     description="Webrr is a command-line utility written in Go designed to perform reconnaissance on web servers. It checks for security-related HTTP headers, detects Web Application Firewalls (WAFs), and identifies Content Management Systems (CMS)."
     url="https://github.com/wreakdev/webrr"
+    />
+  <RrojectRow
+    number="05"
+    title={
+      <div className="flex items-center flex-wrap gap-2">
+      <span className="font-bold">fuzzmap</span>
+      <span className="text-xs uppercase px-2 py-0.5 rounded border border-blue-500/30 bg-blue-500/10 text-blue-400 font-medium">
+      I personally use it
+      </span>
+      </div>
+    }
+    description="Fuzzmap is a simple and fast command-line web fuzzing tool written in Go. It allows you to discover hidden directories, files, and endpoints on a target web server using a specified wordlist and concurrent threads."
+    url="https://github.com/wreakdev/fuzzmap"
+    />
+  <ProjectRow
+    number="06"
+    title={
+      <div className="flex items-center flex-wrap gap-2">
+      <span className="font-bold">lpechk</span>
+      <span className="text-xs uppercase px-2 py-0.5 rounded border border-blue-500/30 bg-blue-500/10 text-blue-400 font-medium">
+      I personally use it sometimes.
+      </span>
+      </div>
+    }
+    description="A lightweight, automated local enumeration tool written in Go designed to audit Linux systems for potential privilege escalation vectors, misconfigurations, and sensitive data exposure."
+    url="https://github.com/wreakdev/lpechk"
     />
 </section>
     <div className="mt-24 mb-10 ml-2">
