@@ -8,7 +8,7 @@ type WreakDev struct {
         Mission    string
         Driver     string
         HomeLab    string
-        portfolio  string
+        Portfolio  string
         TryHackMe  string
 }
 
@@ -21,7 +21,7 @@ var GithubUser = WreakDev{
         Mission:   "Building Backend // Automation Tools",
         Driver:    "Fedora Linux",
         HomeLab:   "Raspberry Pi",
-        portfolio: "https://wreakdev.vercel.app",
+        Portfolio: "https://wreakdev.vercel.app",
         TryHackMe: "https://tryhackme.com/p/wxwreak",
 }
 ```
