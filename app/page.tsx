@@ -27,7 +27,7 @@ export default function Home() {
         WreakDev
       </h1>
       <p className="text-gray-500 font-mono text-sm md:text-base mt-4 ml-2 tracking-[0.2em] uppercase">
-        Building Backend & Automation tools
+        Infrastructure, Automation & Security Tooling
       </p>
     </div>
 </div>
@@ -42,18 +42,23 @@ export default function Home() {
 
         <section className="border-t border-gray-900">
           <SkillRow
-            category="Scripting"
+            category="Backend & Scripting"
             skills="Python"
             level="[ 2022 - Present ]"
           />
           <SkillRow
-            category="Scripting"
+            category="Systems & Tooling"
             skills="Go"
-            level="[ Learning ]"
+            level="[ Active Development ]"
+          />
+          <SkillRow
+            category="Infrastructure"
+            skills="Docker, Linux, Kubernetes // Still learning"
+            level="[ Hands-on ]"
           />
           <SkillRow
             category="Cyber Security"
-            skills="TryHackMe"
+            skills="TryHackMe, OffSec"
             level="[ 2024 - Present ]"
           />
         </section>
