@@ -53,7 +53,7 @@ export default function Home() {
           />
           <SkillRow
             category="Infrastructure"
-            skills="Docker, Linux, Kubernetes // Still learning"
+            skills="Docker, Linux"
             level="[ Hands-on ]"
           />
           <SkillRow
