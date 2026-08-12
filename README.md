@@ -14,7 +14,7 @@ type WreakDev struct {
 
 var GithubUser = WreakDev{
         Name:       "wreakdev // wxwreak",
-        Stack:      []string{"Linux", "Docker", "Kubernetes", "Python", "Go"},
+        Stack:      []string{"Linux", "Docker", "Python", "Go"},
         Focus:      []string{"DevSecOps", "Infrastructure Automation", "Security Tooling"},
         Sec:        []string{"OffSec Mindset", "Web Recon & Fuzzing", "TryHackMe"},
         Role:       []string{"DevSecOps Enthusiast", "Infrastructure & Tool Developer"},
