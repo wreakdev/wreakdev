@@ -1,5 +1,0 @@
-notifications:
-  discord:
-    enabled: false
-  telegram:
-    enabled: true
