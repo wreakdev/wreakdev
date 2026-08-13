@@ -17,7 +17,20 @@ export const metadata: Metadata = {
     siteName: "WreakDev - Portfolio",
     locale: "en_US",
     type: "website",
-  }
+    images: [
+      {
+        url: "https://avatars.githubusercontent.com/u/217353155?v=4&s=400",
+        width: 400,
+        height: 400,
+        alt: "WreakDev Github PFP" ,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary",
+    title: "WreakDev - Portfolio",
+    images: ["https://avatars.githubusercontent.com/u/217353155?v=4&s=400"],
+  },
 };
 
 export default function RootLayout({
