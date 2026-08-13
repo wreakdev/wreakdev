@@ -2,12 +2,14 @@ import Image from "next/image";
 import Footer from '@/components/Footer';
 import ProjectRow from '@/components/ProjectRow';
 import SkillRow from '@/components/SkillRow';
+import AIContext from '@/components/AIContext';
 
 export default function Home() {
   const currentHour = Math.floor(Date.now() / (1000 * 60 * 60));
   const pfpUrl = `https://avatars.githubusercontent.com/u/217353155?v=4&s=160&t=${currentHour}`;
   return (
     <div className="bg-black text-white selection:bg-white selection:text-black min-h-screen font-sans antialiased">
+      <AIContext />
       <main className="max-w-4xl mx-auto px-6 pt-32">
       <section className="mb-40">
   <div className="flex items-end gap-6 md:gap-10">
