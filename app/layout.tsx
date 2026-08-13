@@ -8,11 +8,11 @@ export const metadata: Metadata = {
     default: "WreakDev - Portfolio",
     template: "%s | WreakDev"
   },
-  description: "Building Backend & Automation tools",
+  description: "Infrastructure, Automation & Security Tooling",
   authors : [{ name: "wreakdev" }],
   openGraph: {
     title: "WreakDev - Portfolio",
-    description: "Building Backend & Automation tools",
+    description: "Infrastructure, Automation & Security Tooling",
     url: "https://wreakdev.vercel.app/",
     siteName: "WreakDev - Portfolio",
     locale: "en_US",
