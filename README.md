@@ -11,6 +11,7 @@ type WreakDev struct {
         Portfolio  string
         TryHackMe  string
         Twitter    string
+        DevTo      string
 }
 
 var GithubUser = WreakDev{
@@ -24,6 +25,7 @@ var GithubUser = WreakDev{
         HomeLab:    "Raspberry Pi",
         Portfolio:  "https://wreakdev.vercel.app",
         TryHackMe:  "https://tryhackme.com/p/wxwreak",
-        Twitter:    "https://x.com/wxwreak"
+        Twitter:    "https://x.com/wxwreak",
+        DevTo:      "https://dev.to/wreakdev"
 }
 ```
