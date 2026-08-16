@@ -5,16 +5,16 @@ import './globals.css';
 export const metadata: Metadata = {
   metadataBase: new URL('https://wreakdev.vercel.app/'), 
   title : {
-    default: "WreakDev - Portfolio",
+    default: "WreakDev | DevSecOps & Open Source Tool Developer",
     template: "%s | WreakDev"
   },
   description: "Infrastructure, Automation & Security Tooling",
   authors : [{ name: "wreakdev" }],
   openGraph: {
-    title: "WreakDev - Portfolio",
+    title: "WreakDev | DevSecOps & Open Source Tool Developer",
     description: "Infrastructure, Automation & Security Tooling",
     url: "https://wreakdev.vercel.app/",
-    siteName: "WreakDev - Portfolio",
+    siteName: "WreakDev | DevSecOps & Open Source Tool Developer",
     locale: "en_US",
     type: "website",
     images: [
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary",
-    title: "WreakDev - Portfolio",
+    title: "WreakDev | DevSecOps & Open Source Tool Developer",
     images: ["https://avatars.githubusercontent.com/u/217353155?v=4&s=400"],
   },
 };
