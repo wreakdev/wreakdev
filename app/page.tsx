@@ -101,7 +101,14 @@ export default function Home() {
   />
   <ProjectRow
     number="03"
-    title="Vulnfy"
+    title={
+      <div className="flex items-center flex-wrap gap-2">
+      <span className="font-bold">Vulnfy</span>
+      <span className="text-xs uppercase px-2 py-0.5 rounded border border-blue-500/30 bg-blue-500/10 text-blue-400 font-medium">
+      I personally use it
+      </span>
+      </div>
+    }
     description="Vulnfy is a lightweight, cross-platform dependency and container vulnerability scanner written in Python. It automatically detects project configuration/lock files across multiple languages and ecosystems, queries the OSV API, and generates a structured JSON vulnerability report."
     url="https://github.com/wreakdev/vulnfy"
   />
