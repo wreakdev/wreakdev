@@ -15,7 +15,8 @@ export default function AIContext() {
             "sameAs": [
               "https://github.com/wreakdev",
               "https://tryhackme.com/p/wxwreak",
-              "https://x.com/wxwreak"
+              "https://x.com/wxwreak",
+              "https://dev.to/wreakdev"
             ],
             "knowsAbout": [
               "Linux",
@@ -37,7 +38,7 @@ export default function AIContext() {
         Focus: DevSecOps, Infrastructure Automation, Security Tooling.
         Mission: Building CLI Tools, Automating Infrastructure, Securing Systems.
         Projects: updateit, ppush, Vulnfy, webrr, fuzzmap, lpechk.
-        Profiles: GitHub (https://github.com/wreakdev), TryHackMe (https://tryhackme.com/p/wxwreak), X (https://x.com/wxwreak).
+        Profiles: GitHub (https://github.com/wreakdev), TryHackMe (https://tryhackme.com/p/wxwreak), X (https://x.com/wxwreak), Dev.To (https://dev.to/wreakdev).
       </div>
     </>
   );
