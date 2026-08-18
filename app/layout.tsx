@@ -3,18 +3,18 @@ import CustomCursor from '../components/Cursor';
 import './globals.css';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://wreakdev.vercel.app/'), 
+  metadataBase: new URL('https://wxwreak.vercel.app/'), 
   title : {
-    default: "WreakDev | DevSecOps & Open Source Tool Developer",
-    template: "%s | WreakDev"
+    default: "wxwreak | DevSecOps & Open Source Tool Developer",
+    template: "%s | wxwreak"
   },
   description: "Infrastructure, Automation & Security Tooling",
-  authors : [{ name: "wreakdev" }],
+  authors : [{ name: "wxwreak" }],
   openGraph: {
-    title: "WreakDev | DevSecOps & Open Source Tool Developer",
+    title: "wxwreak | DevSecOps & Open Source Tool Developer",
     description: "Infrastructure, Automation & Security Tooling",
-    url: "https://wreakdev.vercel.app/",
-    siteName: "WreakDev | DevSecOps & Open Source Tool Developer",
+    url: "https://wxwreak.vercel.app/",
+    siteName: "wxwreak | DevSecOps & Open Source Tool Developer",
     locale: "en_US",
     type: "website",
     images: [
@@ -22,13 +22,13 @@ export const metadata: Metadata = {
         url: "https://avatars.githubusercontent.com/u/217353155?v=4&s=400",
         width: 400,
         height: 400,
-        alt: "WreakDev Github PFP" ,
+        alt: "wxwreak Github PFP" ,
       },
     ],
   },
   twitter: {
     card: "summary",
-    title: "WreakDev | DevSecOps & Open Source Tool Developer",
+    title: "wxwreak | DevSecOps & Open Source Tool Developer",
     images: ["https://avatars.githubusercontent.com/u/217353155?v=4&s=400"],
   },
 };

@@ -1,5 +1,5 @@
 ```go
-type WreakDev struct {
+type wxwreak struct {
         Name       string
         Stack      []string
         Focus      []string
@@ -14,8 +14,8 @@ type WreakDev struct {
         DevTo      string
 }
 
-var GithubUser = WreakDev{
-        Name:       "wreakdev // wxwreak",
+var GithubUser = wxwreak{
+        Name:       "wxwreak",
         Stack:      []string{"Linux", "Docker", "Python", "Go"},
         Focus:      []string{"DevSecOps", "Infrastructure Automation", "Security Tooling"},
         Sec:        []string{"OffSec Mindset", "Web Recon & Fuzzing", "TryHackMe"},
@@ -23,9 +23,9 @@ var GithubUser = WreakDev{
         Mission:    "Building CLI Tools // Automating Infrastructure // Securing Systems",
         Driver:     "Fedora Linux",
         HomeLab:    "Raspberry Pi",
-        Portfolio:  "https://wreakdev.vercel.app",
+        Portfolio:  "https://wxwreak.vercel.app",
         TryHackMe:  "https://tryhackme.com/p/wxwreak",
         Twitter:    "https://x.com/wxwreak",
-        DevTo:      "https://dev.to/wreakdev"
+        DevTo:      "https://dev.to/wxwreak"
 }
 ```

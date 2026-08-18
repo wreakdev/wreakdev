@@ -26,7 +26,7 @@ export default function Home() {
 
     <div className="flex flex-col">
       <h1 className="text-6xl md:text-[140px] font-bold leading-[0.75] tracking-tighter uppercase italic">
-        WreakDev
+        wxwreak
       </h1>
       <p className="text-gray-500 font-mono text-sm md:text-base mt-4 ml-2 tracking-[0.2em] uppercase">
         Infrastructure, Automation & Security Tooling
@@ -84,7 +84,7 @@ export default function Home() {
     </div>
   }
     description="CLI tool to update all packages from listed package managers."
-    url="https://github.com/wreakdev/updateit"
+    url="https://github.com/wxwreak/updateit"
   />
   <ProjectRow 
     number="02"
@@ -97,7 +97,7 @@ export default function Home() {
     </div>
   }
     description="lightweight Python automation script designed to streamline your Git workflow. Stop typing three commands repeatedly—do it all with one."
-    url="https://github.com/wreakdev/ppush"
+    url="https://github.com/wxwreak/ppush"
   />
   <ProjectRow
     number="03"
@@ -110,7 +110,7 @@ export default function Home() {
       </div>
     }
     description="Vulnfy is a lightweight, cross-platform dependency and container vulnerability scanner written in Python. It automatically detects project configuration/lock files across multiple languages and ecosystems, queries the OSV API, and generates a structured JSON vulnerability report."
-    url="https://github.com/wreakdev/vulnfy"
+    url="https://github.com/wxwreak/vulnfy"
   />
   <ProjectRow
     number="04"
@@ -123,7 +123,7 @@ export default function Home() {
       </div>
     }
     description="Webrr is a command-line utility written in Go designed to perform reconnaissance on web servers. It checks for security-related HTTP headers, detects Web Application Firewalls (WAFs), and identifies Content Management Systems (CMS)."
-    url="https://github.com/wreakdev/webrr"
+    url="https://github.com/wxwreak/webrr"
     />
   <ProjectRow
     number="05"
@@ -136,7 +136,7 @@ export default function Home() {
       </div>
     }
     description="Fuzzmap is a simple and fast command-line web fuzzing tool written in Go. It allows you to discover hidden directories, files, and endpoints on a target web server using a specified wordlist and concurrent threads."
-    url="https://github.com/wreakdev/fuzzmap"
+    url="https://github.com/wxwreak/fuzzmap"
     />
   <ProjectRow
     number="06"
@@ -149,7 +149,7 @@ export default function Home() {
       </div>
     }
     description="A lightweight, automated local enumeration tool written in Go designed to audit Linux systems for potential privilege escalation vectors, misconfigurations, and sensitive data exposure."
-    url="https://github.com/wreakdev/lpechk"
+    url="https://github.com/wxwreak/lpechk"
     />
 </section>
     <div className="mt-24 mb-10 ml-2">
